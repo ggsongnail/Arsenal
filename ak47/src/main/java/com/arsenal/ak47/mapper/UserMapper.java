@@ -1,9 +1,10 @@
 package com.arsenal.ak47.mapper;
 
 import com.arsenal.ak47.pojo.User;
-import org.apache.ibatis.annotations.Mapper;
+import org.springframework.stereotype.Repository;
+import tk.mybatis.mapper.common.Mapper;
 
-@Mapper
-public interface UserMapper extends MyBaseMapper<User>{
+@Repository
+public interface UserMapper extends Mapper<User> {
 
 }
