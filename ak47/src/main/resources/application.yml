@@ -14,5 +14,5 @@ mybatis:
 logging:
   config: ak47/logback.xml
   level:
-    com.arms.ak47: debug
+    com.arms.ak47: error
 

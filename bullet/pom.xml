@@ -17,12 +17,6 @@
             <artifactId>httpclient</artifactId>
             <version>4.5.1</version>
         </dependency>
-
-        <dependency>
-            <groupId>com.arms</groupId>
-            <artifactId>ak47</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-        </dependency>
     </dependencies>
 
 </project>
