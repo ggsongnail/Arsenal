@@ -14,6 +14,4 @@ public class BulletApplication {
     public RestTemplate restTemplate(){
         return new RestTemplate();
     }
-
-
 }
