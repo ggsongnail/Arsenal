@@ -1,4 +1,4 @@
-package com.arms.sandbox.annotations._Import;
+package com.arms.sandbox.bean.annotations._Import;
 
 import org.springframework.beans.factory.support.BeanDefinitionRegistry;
 import org.springframework.beans.factory.support.RootBeanDefinition;

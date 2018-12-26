@@ -1,4 +1,4 @@
-package com.arms.sandbox.annotations._Scope;
+package com.arms.sandbox.bean.annotations._Scope;
 
 import org.springframework.context.annotation.Scope;
 

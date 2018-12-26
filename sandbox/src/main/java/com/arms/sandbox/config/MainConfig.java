@@ -1,12 +1,12 @@
 package com.arms.sandbox.config;
 
-import com.arms.sandbox.annotations._Import.Circle;
-import com.arms.sandbox.annotations._Import.MyImportBeanDefinitionRegistar;
-import com.arms.sandbox.annotations._Import.MyImportSelector;
-import com.arms.sandbox.annotations._Import.Square;
-import com.arms.sandbox.annotations._Scope.PrototypeUser;
-import com.arms.sandbox.annotations._Scope.SingletonUser;
-import com.arms.sandbox.factory.MyFactoryBean;
+import com.arms.sandbox.bean.annotations._Import.Circle;
+import com.arms.sandbox.bean.annotations._Import.MyImportBeanDefinitionRegistar;
+import com.arms.sandbox.bean.annotations._Import.MyImportSelector;
+import com.arms.sandbox.bean.annotations._Import.Square;
+import com.arms.sandbox.bean.annotations._Scope.PrototypeUser;
+import com.arms.sandbox.bean.annotations._Scope.SingletonUser;
+import com.arms.sandbox.bean.factory.MyFactoryBean;
 import org.springframework.context.annotation.*;
 
 @Import({Circle.class,Square.class,MyImportSelector.class,MyImportBeanDefinitionRegistar.class})

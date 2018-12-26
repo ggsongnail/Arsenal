@@ -1,6 +1,6 @@
-package com.arms.sandbox.factory;
+package com.arms.sandbox.bean.factory;
 
-import com.arms.sandbox.annotations._Import.Circle;
+import com.arms.sandbox.bean.annotations._Import.Circle;
 import org.springframework.beans.factory.FactoryBean;
 
 public class MyFactoryBean implements FactoryBean<Circle> {

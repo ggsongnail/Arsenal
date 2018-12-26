@@ -1,4 +1,4 @@
-package com.arms.sandbox.annotations._Import;
+package com.arms.sandbox.bean.annotations._Import;
 
 import com.arms.sandbox.config.MainConfig;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
