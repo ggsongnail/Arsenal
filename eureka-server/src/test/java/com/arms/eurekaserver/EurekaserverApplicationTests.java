@@ -1,4 +1,4 @@
-package com.arms.arsenal;
+package com.arms.eurekaserver;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -7,7 +7,7 @@ import org.springframework.test.context.junit4.SpringRunner;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
-public class ArsenalApplicationTests {
+public class EurekaserverApplicationTests {
 
     @Test
     public void contextLoads() {

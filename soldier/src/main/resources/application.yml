@@ -1,0 +1,7 @@
+
+logging:
+  config: ak47/logback.xml
+  level:
+    root: debug
+server:
+  port: 8081
