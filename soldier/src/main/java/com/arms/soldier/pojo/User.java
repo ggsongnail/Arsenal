@@ -13,4 +13,5 @@ public class User implements Serializable {
     private String name;
     private Date createTime;
     private Integer status;
+    private Apple apple;
 }
